@@ -1,0 +1,28 @@
+li {
+    list-style: none;
+}
+
+.burger {
+    margin-left: 5rem;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    cursor: pointer;
+    z-index: 4;
+    width: 8rem;
+    position: absolute;
+    margin-top: 5rem;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+.burger__bar {
+    z-index: 4;
+    width: 8rem;
+    height: 0.8rem;
+    border-radius: 5rem;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}

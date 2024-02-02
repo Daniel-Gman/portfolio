@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/style.css">
-    <link rel="stylesheet" href="/static/layout/header.css">
+    <link rel="stylesheet" href="static/layout/_main.css">
+    <link rel="stylesheet" href="/static/layout/_header.css">
     <link rel="stylesheet" href="/static/layout/_white_bar.css">
     <link rel="stylesheet" href="static/components/landpage.css">
     <script src="scripts/main.js" defer></script>
@@ -17,31 +18,33 @@
 
 <body>
     <div id="app">
-        <header class="header__content">
-            <div id="headerBar" class="header__bar">
-            </div>
-            <ul id="burger" class="burger">
-                <li class="burger__bar"></li>
-                <li class="burger__bar"></li>
-                <li class="burger__bar"></li>
-            </ul>
-            <div>
-                <h2>About me</h2>
-                <h2>Projects</h2>
-                <h2>Curriculum</h2>
-            </div>
-        </header>
+        <ul id="burger" class="burger">
+            <li class="burger__bar"></li>
+            <li class="burger__bar"></li>
+            <li class="burger__bar"></li>
+        </ul>
         <div id="whiteBar" class="white__bar">
-            <h1>Daniel WebArt</h1>
+            <div class="name__info">
+                <img src="img/pfp.png" alt="">
+                <h1>Daniel Vermeulen</h1>
+            </div>
             <section class="section__burger">
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
+                <h1>More about me:</h1>
+                <p>About me</p>
+                <p>Projects</p>
+                <p>Curriculum</p>
+                <p>Services</p>
+                <p>Gallery</p>
+                <p>Contact me</p>
             </section>
         </div>
         <section class="cover__gif">
-            <div class="fade__gif"></div>
+            <div class="fade__gif">
+                <main id="main">
+                </main>
+            </div>
         </section>
+    </div>
     </div>
 </body>
 

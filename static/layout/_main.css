@@ -1,0 +1,8 @@
+main {
+    margin-top: 5%;
+    background-color: #ffffffc7;
+    width: 80vw;
+    height: 75%;
+    position: relative;
+    z-index: 5;
+}
