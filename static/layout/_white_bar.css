@@ -7,7 +7,7 @@
     width: 0;
     background-color: rgba(0, 0, 0, 0.526);
     overflow: hidden;
-    transition: width 0.5s ease;
+    transition: width 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -25,6 +25,7 @@
 .white__bar>.name__info {
     flex-direction: column;
     height: 25%;
+    margin-top: -8rem;
 }
 
 .white__bar>div>img {
@@ -60,6 +61,7 @@
     text-decoration: underline;
     cursor: pointer;
     font-weight: bold;
+    font-size: 1.8rem;
 }
 
 div.position__company_name {

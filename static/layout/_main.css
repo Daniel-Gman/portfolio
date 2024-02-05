@@ -1,8 +1,37 @@
 main {
-    margin-top: 5%;
+    margin-left: 5%;
     background-color: #ffffffc7;
     width: 80vw;
-    height: 75%;
+    height: 87%;
     position: relative;
     z-index: 5;
+    transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+main>section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100rem;
+    background-color: #ffffffc7;
+    scroll-behavior: smooth;
+}
+
+main::-webkit-scrollbar {
+    width: 12px;
+}
+
+main::-webkit-scrollbar-track-piece
+
+/*Can add /start and /end to define if u want the background color above or under the scrollbar thumb*/
+    {
+    background: black;
+}
+
+main::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, red, white, red);
+    border: none;
 }
