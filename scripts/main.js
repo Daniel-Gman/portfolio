@@ -1,14 +1,15 @@
 const burgermenu = document.getElementById("burger");
 const burgerbars = document.getElementsByClassName("burger__bar");
 const whiteBar = document.getElementById("whiteBar");
-const mainpage = document.getElementById("main");
+const burgercontent = document.getElementById("burger__content");
+const burgerimage = document.getElementById("burger__image");
 
 burgermenu.addEventListener("click", function () {
     if (whiteBar.style.width === "25%") {
         whiteBar.style.width = "0";
         burgermenu.style.left = "0"; // Move the burger menu back to its original position
-        mainpage.style.marginLeft = "5%"
-        mainpage.style.width = "80vw";
+        burgercontent.style.opacity = "0";
+        burgerimage.style.opacity = "0"
         document.body.style.overflow = 'hidden';
         for (let i = 0; i < burgerbars.length; i++) {
             burgerbars[i].style.backgroundColor = "white";
@@ -16,8 +17,10 @@ burgermenu.addEventListener("click", function () {
     } else {
         whiteBar.style.width = "25%";
         burgermenu.style.left = "25%"; // Move the burger menu to the right
-        mainpage.style.marginLeft = "30%"
-        mainpage.style.width = "55vw";
+        setTimeout(function () {
+            burgercontent.style.opacity = "1";
+            burgerimage.style.opacity = "1"
+        }, 200); // Adjust the delay time as needed
         document.body.style.overflow = 'hidden';
         for (let i = 0; i < burgerbars.length; i++) {
             burgerbars[i].style.backgroundColor = "rgb(202, 202, 202)";
