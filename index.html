@@ -6,38 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/layout/_main.css">
     <link rel="stylesheet" href="/static/layout/_header.css">
-    <link rel="stylesheet" href="/static/layout/_white_bar.css">
-    <link rel="stylesheet" href="static/components/landpage.css">
+    <link rel="stylesheet" href="/static/layout/_card_content.css">
+    <link rel="stylesheet" href="static/components/button.css">
     <script src="scripts/main.js" defer></script>
+    <script src="scripts/helpers/card.js" defer></script>
     <script src="scripts/components/_scrollbar.js" defer></script>
     <title>Daniel Vermeulen Portfolio</title>
 </head>
 
 <body>
-    <div class="position__header">
-        <div id="left__side" class="side">
-
-            <h2 class="title">
-                Daniel Vermeulen
-                <span class="fancy">Frontend Developer</span>
-            </h2>
+    <header id="header">
+        <div id="header__li">
+            <li>Contacts</li>
+            <li>Projects</li>
+            <li>English</li>
         </div>
-        <div id="right__side" class="side">
-
-            <h2 class="title">
-                Daniel Vermeulen
-                <span class="fancy">UX/UI Designer</span>
-            </h2>
+    </header>
+    <div class="header__arrow_position">
+        <div id="arrow" class="header__arrow">
+            <div></div>
         </div>
     </div>
 
-    <section>
-        <h1>test</h1>
-    </section>
+    <ul>
+        <li class="content_type_left">
+            <section>
+                <div>
+                    <h1>Experience</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat perspiciatis blanditiis id
+                        quidem
+                        officia illum dicta quasi! Sed dolore asperiores, voluptas corrupti porro, velit ipsum culpa
+                        placeat
+                        repellat nisi pariatur?</p>
+                    <button class="cybr-btn">
+                        See more<span aria-hidden>_</span>
+                        <span aria-hidden class="cybr-btn__glitch">See more</span>
+                    </button>
+                </div>
+            </section>
+        </li>
+        <li class="content_type_center">
+            <section>
+                <div>
+                    <h1>About me!</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, facere aliquam. Culpa quaerat
+                        quidem officia blanditiis, ad assumenda dolore? Enim et corrupti doloribus, sunt facere
+                        voluptates
+                        cumque quas impedit iure!</p>
+                    <button class="cybr-btn">Check it out
+                        <span aria-hidden>_</span>
+                        <span aria-hidden class="cybr-btn__glitch">Check it out</span>
+                    </button>
+                </div>
+            </section>
+        </li>
+        <li class="content_type_right">
+            <section>
+                <div>
+                    <h1>Projects</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae ut optio accusantium blanditiis
+                        voluptatem mollitia sunt repellendus, est quae magni veniam officiis consectetur, eum aliquam!
+                        Minima dolore est esse sed!</p>
+                    <button class="cybr-btn">Take me there
+                        <span aria-hidden>_</span>
+                        <span aria-hidden class="cybr-btn__glitch">Take me there</span>
+                    </button>
+                </div>
+            </section>
+        </li>
+    </ul>
 </body>
 
 </html>
