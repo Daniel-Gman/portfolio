@@ -1,0 +1,48 @@
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+    }
+
+    .content_type_left,
+    .content_type_center,
+    .content_type_right {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+
+    .content_type_left>section>div>h1,
+    .content_type_center>section>div>h1,
+    .content_type_right>section>div>h1 {
+        font-size: 2.5rem;
+    }
+
+    .content_type_left>section>div>p,
+    .content_type_center>section>div>p,
+    .content_type_right>section>div>p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .cybr-btn {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__arrow {
+        width: 70%;
+    }
+
+    header>div>li {
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    header>div {
+        flex-direction: column;
+    }
+}
