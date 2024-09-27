@@ -1,0 +1,77 @@
+{
+    "title": {
+        "title": "Past experience",
+        "content": "On this page you are going to be able to read all past working experiences i have had in the last years"
+    },
+    "items": [
+        {
+            "title": "Working history",
+            "size": "big",
+            "content": "In the past 5 years i have been working in a bunch of different working places. One of them being a volunteer at a petting zoo, it was a really fun job i did back when i was really young\n it helped me learn the basics of being an employee and i got to work with really sweet animals!\n\nAfter the petting zoo i got a job at a supermarket, that being Dekamarkt Blokker. I have worked there for almost 4 years and managed to build a great bond with some really friendly co-workers!"
+        },
+        {
+            "size": "big",
+            "background": "img/bb894b0a-d62b-4ecd-a5ba-0f870075b346.jpg"
+        },
+        {
+            "title": "Petting zoo",
+            "size": "medium",
+            "time": "4 months",
+            "content": "Volunteer at petting zoo, fed all the animals and\n made sure they had a clean place to sleep"
+        },
+        {
+            "title": "Dekamarkt Blokker",
+            "size": "medium",
+            "time": "3.5 years",
+            "content": "I make sure the store is stocked up with products"
+        },
+        {
+            "title": "Full-time student",
+            "size": "medium",
+            "time": "3 years",
+            "content": "I study code to build kick-ass programs!!"
+        },
+        {
+            "title": "Edulock CEO",
+            "size": "medium",
+            "time": "1.2 years",
+            "content": "CEO, Software developer and team manager"
+        },
+        {
+            "title": "De Waalrakkers",
+            "size": "small",
+            "content": "",
+            "text": "Here you have one of the animals i took care of while being a volunteer here.",
+            "link": "",
+            "link2": "",
+            "background": "img/geit_waalrakkers-1.webp"
+        },
+        {
+            "title": "Dekamarkt Blokker",
+            "size": "small",
+            "content": "",
+            "text": "Dekamarkt is a dutch supermarket chain that ive worked for",
+            "link": "",
+            "link2": "",
+            "background": "img/deka.webp"
+        },
+        {
+            "title": "Awsome full-time student",
+            "size": "small",
+            "content": "",
+            "text": "Im working hard to end up with a master diploma in Applied Artificial Intelligence",
+            "link": "",
+            "link2": "",
+            "background": "img/daniel.jpeg"
+        },
+        {
+            "title": "Start-up CEO",
+            "size": "small",
+            "content": "",
+            "text": "I came up with a great company idea and together with a great team we managed to build a nice foundation from the ground up",
+            "link": "",
+            "link2": "",
+            "background": "img/Eduteam.jpeg"
+        }
+    ]
+}

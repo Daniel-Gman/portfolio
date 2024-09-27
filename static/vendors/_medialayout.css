@@ -1,44 +1,122 @@
 /*For this page i made use of the 12-8-4 rule for my grid lay-out, this makes it easier
   for me to make the page as responsive as possible for any device*/
 
+body {
+    background-color: #e0e0e0;
+}
+
+section {
+    background-color: #222;
+    color: white;
+    width: 90%;
+    height: 95vh;
+    margin-inline: auto;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    font-size: 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+
 .container {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 3.5rem;
     grid-template-columns: repeat(12, 1fr);
-    padding: 2rem;
+    padding: 3rem;
+    background-color: #e0e0e0;
+    row-gap: 6rem;
 }
 
 .item.big {
-    background-color: #4CAF50;
-    color: white;
+    color: black;
     padding: 30px;
     text-align: center;
     font-size: 24px;
     min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@keyframes breathing {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.015);
+    }
 }
 
 .item.medium {
-    background-color: #2196F3;
-    color: white;
-    padding: 30px;
+    background-color: #e4e4e4a2;
+    color: black;
+    padding: 10%;
     text-align: center;
     font-size: 20px;
-    min-height: 300px;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    animation: breathing 2.5s infinite ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+
 .item.small {
-    background-color: #f44336;
     color: white;
     padding: 30px;
     text-align: center;
     font-size: 16px;
-    min-height: 200px;
-    transition: 0.4s ease-in-out;
+    min-height: 250px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.item.small::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+}
+
+.item.small:hover::before {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
 }
 
 .item.small:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
+
+.item.small>* {
+    position: relative;
+    z-index: 2;
+}
+
 
 /* Styles for large screens */
 @media (min-width: 992px) {

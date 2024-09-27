@@ -1,0 +1,56 @@
+.item.main.big {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: url("/img/pexels-danny-meneses-340146-943096.jpg");
+    background-size: 100% auto;
+    /* The image width is 100%, height adjusts automatically */
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.item.main.big.abtme {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: url("/img/pexels-kevin-garcia-412627852-16590980.jpg");
+    background-size: 100% auto;
+    /* The image width is 100%, height adjusts automatically */
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.item.main.big.exp {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: url("/img/pexels-ken-tomita-127057-389818.jpg");
+    background-size: 100% auto;
+    /* The image width is 100%, height adjusts automatically */
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.item.main.big::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.item.main.big * {
+    position: relative;
+    z-index: 2;
+}

@@ -1,0 +1,77 @@
+{
+    "title": {
+        "title": "About me",
+        "content": "On this page you will come to learn more about me including the more unknown/fun things about me, my hobbies and my last few years as software developer student"
+    },
+    "items": [
+        {
+            "title": "Some facts about me",
+            "size": "big",
+            "content": "Hello. My name is Daniel Vermeulen and im a 18 year old Software Developer student at MediaCollege Amsterdam. Before going down this carreer path i got my MAVO diploma on Atlas College Copernicus highschool in Hoorn.\n\n Currently i love hanging out with friends, family and my girlfriend. Also ive been playing video games since i was young as a hobby. but managed to turn that into working with computers and programming"
+        },
+        {
+            "size": "big",
+            "background": "img/bb894b0a-d62b-4ecd-a5ba-0f870075b346.jpg"
+        },
+        {
+            "title": "Fun fact 1",
+            "size": "medium",
+            "time": "multiple languages",
+            "content": "I speak Dutch, English, Spanish\n\n (Understand but dont speak)\n basic German and French"
+        },
+        {
+            "title": "Fun fact 2",
+            "size": "medium",
+            "time": "Handbal",
+            "content": "I used to play handbal for 6 years when i was young"
+        },
+        {
+            "title": "Fun fact 3",
+            "size": "medium",
+            "time": "Self study",
+            "content": "I like self studying if its a jubject i enjoy"
+        },
+        {
+            "title": "Fun fact 4",
+            "size": "medium",
+            "time": "Food and drinks",
+            "content": "I love a good snack or drink on a friday night"
+        },
+        {
+            "title": "Pitch event",
+            "size": "small",
+            "content": "",
+            "text": "I did a pitching event with my co-workers for our start-up company. The event was just like shark tank",
+            "link": "We ended up winning the entire event solidifying our company idea as one of the best",
+            "link2": "",
+            "background": "img/ef556623-4f2b-438f-9ba2-975d43f46cc5.jpg"
+        },
+        {
+            "title": "Gaming event",
+            "size": "small",
+            "content": "",
+            "text": "Back when i used to play video games as a hobby i managed to qualify for an esports competition\n featuring the best of the Netherlands at that time",
+            "link": "",
+            "link2": "",
+            "background": "img/signal-2024-09-24-114916_003.jpeg"
+        },
+        {
+            "title": "Love for dogs",
+            "size": "small",
+            "content": "",
+            "text": "I really love dogs. small dogs like boomers in particular. ive had a sweet doggie at home for years",
+            "link": "",
+            "link2": "",
+            "background": "img/signal-2024-09-24-114916_004.jpeg"
+        },
+        {
+            "title": "Famous eraser",
+            "size": "small",
+            "content": "",
+            "text": "When i was young i really liked a penguin eraser and called it Knoert. so i posted some pictures of it\n online and it got a few hundred followers.",
+            "link": "The images have since been deleted",
+            "link2": "",
+            "background": "img/signal-2024-09-24-114916_002.jpeg"
+        }
+    ]
+}

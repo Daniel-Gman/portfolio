@@ -195,3 +195,13 @@
 .cybr-btn:nth-of-type(2) {
     --primary-hue: 260;
 }
+
+
+#section>button {
+    background-color: white;
+    color: black;
+    width: 20%;
+    height: 4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}

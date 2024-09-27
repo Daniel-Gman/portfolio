@@ -1,0 +1,77 @@
+{
+    "title": {
+        "title": "Projects",
+        "content": "Curious about the projects I've built over the years?\nFrom dynamic websites to advanced apps and a custom AI object detection model,\nI've worked on a variety of exciting projects.\nOn this page, you'll find detailed explanations and even a guided tour of some of my open-source code."
+    },
+    "items": [
+        {
+            "title": "My programming experience",
+            "size": "big",
+            "content": "Over the past three years, I have been actively engaged in a wide range of programming projects, both as part of my academic coursework and through self-directed study. My experience spans various domains, from school-assigned website development tasks to personal projects that reflect my passion for technology and innovation. These independent initiatives include app development, as well as more advanced fields like artificial intelligence and machine learning, where I have been working on building my own object detection models.\n\nMy GitHub profile, \"Daniel-Gman,\" showcases the majority of my school-related projects, and I am in the process of adding more personal, hobby-driven projects to further demonstrate my skills and interests. I am always eager to explore new technologies and refine my abilities through hands-on experience, and I look forward to continuing to expand my portfolio with both academic and personal projects."
+        },
+        {
+            "size": "big",
+            "background": "img/pexels-jorge-jesus-137537-614117.jpg"
+        },
+        {
+            "title": "Web dev",
+            "size": "medium",
+            "time": "3 Years",
+            "content": "HTML/(S)Css/JS/PHP\nMySQL/Docker/Wordpress"
+        },
+        {
+            "title": "App dev",
+            "size": "medium",
+            "time": "1 year",
+            "content": "Android Studio/Java/Gradle/Maven Repositories"
+        },
+        {
+            "title": "AI/Machine learning",
+            "size": "medium",
+            "time": "2 months",
+            "content": "Python/Pytorch/OpenCV\nYolov4/Machine learning\nNeural networks/CNN/Jupyter Notebook/Tensorflow/Linear algabra"
+        },
+        {
+            "title": "Entrepreneurship",
+            "size": "medium",
+            "time": "3 year",
+            "content": "Scrum Master/Agile Dev/Team building/Media trained"
+        },
+        {
+            "title": "QR-Image generator",
+            "size": "small",
+            "content": "Open source.",
+            "text": "In this project i managed to build an image to QR-code converter. the goal of this project was to \ntake a picture through a camera and have a QR bring u to a page with ur phone that allows u to download the image.\nI highly recommend to read the explenation on my github to see the full explenation",
+            "link": "https://github.com/Daniel-Gman/webcam-qr",
+            "link2": "",
+            "background": "img/QR.png"
+        },
+        {
+            "title": "Parental control app",
+            "size": "small",
+            "content": "Closed source.",
+            "text": "In this project i created a parental controll app for Android using Android Studio and Java, The goal for the app was to have a lock system for the child\n like Family link. The parent can lock the childs phone with my app",
+            "link": "There is no link to this project. its closed source",
+            "link2": "",
+            "background": "img/Lock.png"
+        },
+        {
+            "title": "Real time AI object detection model",
+            "size": "small",
+            "content": "Open source.",
+            "text": "In this project i made my own model to detect Male/Female people on security cameras. the goal of this was to see if i understood how to work\n with certain frameworks and knew how to work in the lable progress for AI object detection",
+            "link": "https://github.com/Daniel-Gman/Yolov4-HumanAI",
+            "link2": "https://www.youtube.com/watch?v=Kya-3oiuBC8",
+            "background": "img/yolo3_tennis-1068030796.png"
+        },
+        {
+            "title": "Convolutional-neural-network",
+            "size": "small",
+            "content": "Open source.",
+            "text": "In this project i started my own self studie about neural networks. this project has a lot of info about learning the basics of neural networks.\n more info in github:",
+            "link": "https://github.com/Daniel-Gman/convolutional-neural-network",
+            "link2": "",
+            "background": "img/image-2.png"
+        }
+    ]
+}
