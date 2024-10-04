@@ -185,7 +185,7 @@ section {
 
     .item.big:nth-of-type(2),
     .item.big:nth-of-type(3) {
-        grid-column: span 2;
+        grid-column: span 4;
     }
 
     .item.medium:nth-of-type(n+4):nth-of-type(-n+7) {
@@ -194,7 +194,7 @@ section {
     }
 
     .item.small:nth-of-type(n+8):nth-of-type(-n+11) {
-        grid-column: span 1;
+        grid-column: span 2;
         grid-row: span 1;
     }
 }
