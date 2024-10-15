@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    background: url("/img/pexels-danny-meneses-340146-943096.jpg");
+    background: url("/img/pexels-danny-meneses-340146-943096.webp");
     background-size: 270% auto;
     /* The image width is 100%, height adjusts automatically */
     background-position: center;
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    background: url("/img/pexels-kevin-garcia-412627852-16590980.jpg");
+    background: url("/img/pexels-kevin-garcia-412627852-16590980.webp");
     background-size: 270% auto;
     /* The image width is 100%, height adjusts automatically */
     background-position: center;

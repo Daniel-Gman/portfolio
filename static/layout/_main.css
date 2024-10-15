@@ -12,37 +12,37 @@ ul {
 
 .content_type_right {
     width: 100%;
-    height: 110%;
+    height: 100vh;
     list-style: none;
-    background: url('/img/pexels-luis-gomes-166706-546819.jpg') no-repeat center center;
-    background-size: 220%;
+    background: url('/img/pexels-luis-gomes-166706-546819.webp') no-repeat center center;
     z-index: -2;
-    transition: background-size 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+    background-size: cover;
 }
 
 .content_type_right:hover {
-    background-size: 230%;
+    height: 105vh;
 }
 
 .content_type_left {
     background-image: linear-gradient(transparent 80%, black);
     width: 100%;
-    height: 110%;
+    height: 100vh;
     list-style: none;
-    background: url(/img/pexels-anete-lusina-4792282.jpg) no-repeat center center;
-    background-size: 150%;
+    background: url(/img/pexels-anete-lusina-4792282.webp) no-repeat center center;
+    background-size: cover;
     z-index: -2;
-    transition: background-size 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
 }
 
 .content_type_left:hover {
-    background-size: 160%;
+    height: 105vh;
 }
 
 .content_type_center {
     background-image: linear-gradient(transparent 80%, black);
     width: 100%;
-    height: 110%;
+    height: 100vh;
     border-style: solid;
     border-color: transparent;
     border-width: 0px 3px;
@@ -51,13 +51,13 @@ ul {
     animation: rgbBorder 12s linear infinite;
     list-style: none;
     background: url('/img/20240502_162805.jpg') no-repeat center center;
-    background-size: 120%;
+    background-size: cover;
     z-index: -2;
-    transition: background-size 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
 }
 
 .content_type_center:hover {
-    background-size: 130%;
+    height: 105vh;
 }
 
 @keyframes rgbBorder {
